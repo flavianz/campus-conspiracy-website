@@ -1,11 +1,12 @@
 import "./App.css";
 import SkinPink from "./assets/skin_pink.png";
 import Sabotage from "./assets/Button_Sabotage.png";
+import Map from "./assets/map.png";
+import Emergency from "./assets/Emergency.png";
 
 export default function App() {
     return (
         <div id="container">
-            <h1>Campus Conspiracy</h1>
             <div className="paragraph left">
                 <div>
                     <h2>The Exams</h2>
@@ -41,6 +42,20 @@ export default function App() {
                     </p>
                 </div>
             </div>
+            <h3 style={{marginBottom: 0, marginTop: "10vw"}}>SUS Uni Studios presents</h3>
+            <h1 style={{marginTop: 0, fontSize: "4em", marginBottom: "10vw"}}>Campus Conspiracy</h1>
+            <div>
+                <p>Our game is a fork of the popular game "Among Us", but with a twist.
+                    While the real games takes place in a space ship far from earth,
+                    our game is set right in the heart of Basel. <br/><br/><br/><img id={"centerImage"} src={Map} alt="The campus conspiracy map" /><br/><br/><br/>The goal of
+                    the students, which are equivalent to crew mates in the original, is
+                    to sabotage the exams that are coming up. However, a small number of
+                    students were already caught by police and are now working undercover
+                    to eliminate the other students. The students have to find the impostor
+                    among them, while completing the different tasks they were all assigned
+                    to complete the mission. <br/><br/><br/></p>
+            </div>
+            <img id={"centerImage"} src={Emergency} alt="The campus conspiracy emergency" />
         </div>
     );
 }

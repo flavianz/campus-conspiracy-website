@@ -4,26 +4,32 @@
   h2 {
     font-size: 2.5em;
   }
+  p {
+    max-width: 30vw;
+  }
   div {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  p {
-    max-width: 30vw;
-    font-size: 1.5em;
-  }
   img {
     object-fit: contain;
-    width: 12vw;
+    width: 200px;
   }
+}
+#centerImage {
+  width: 60vw;
+}
+p {
+  font-size: 1.3em;
 }
 #container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 60vw;
+  padding: 0 20vw;
 }
 .left {
     div {
