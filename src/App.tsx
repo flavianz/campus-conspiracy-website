@@ -26,7 +26,7 @@ export default function App() {
                         coming. In fact, they start next week. This is waaaay
                         too much to handle. <br />
                         <br />
-                        But what if there way another way?
+                        But what if there was another way?
                     </p>
                 </div>
                 <img src={SkinPink} alt="A pink among us skin" />
@@ -64,8 +64,8 @@ export default function App() {
             <div>
                 <p>
                     Our game is a fork of the popular game "Among Us", but with
-                    a twist. While the real games takes place in a space ship
-                    far from earth, our game is set right in the heart of Basel.{" "}
+                    a twist. While the real game takes place in a space ship far
+                    from earth, our game is set right in the heart of Basel.{" "}
                     <br />
                     <br />
                     <br />
@@ -101,9 +101,9 @@ export default function App() {
                     <h2>Jump into the action</h2>
                     <p>
                         Get down to business now and download Campus Conspiracy
-                        - it's free! Invite all of your friends and see whose
-                        your REAL friends are - or who is secretly trying to get
-                        you into jail.
+                        - it's free! Invite all of your friends and see who your
+                        REAL friends are - or who is secretly trying to get you
+                        into jail.
                     </p>
                     <a
                         href="https://github.com/flavianz/campus-conspiracy-website/releases/download/releases/CampusConspiracy-v0.1.jar"
