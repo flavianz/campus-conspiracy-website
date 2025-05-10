@@ -62,3 +62,7 @@ h2 {
   flex-direction: row;
   justify-content: space-between;
 }
+iframe {
+  width: 70vw;
+  height: 80vh;
+}

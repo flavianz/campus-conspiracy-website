@@ -163,6 +163,17 @@ export default function App() {
                     </div>
                 </div>
             </div>
+            <div>
+                <h2>Trailer</h2>
+                <iframe
+                    src="https://www.youtube.com/embed/7Pd0_fGBYeI?si=vgkJH26nPqXJukRa"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                ></iframe>
+            </div>
         </div>
     );
 }
