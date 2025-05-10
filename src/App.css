@@ -1,9 +1,6 @@
 .paragraph {
   display: flex;
   flex: 1;
-  h2 {
-    font-size: 2.5em;
-  }
   p {
     max-width: 30vw;
   }
@@ -40,4 +37,28 @@ p {
     div {
       margin: 4vw 0 2vw 10vw;
     }
+}
+
+h2 {
+  font-size: 2.5em;
+}
+.us {
+  img {
+    height: 15vh;
+  }
+  margin: 2vw;
+  display: flex;
+  h3 {
+    font-size: 2em;
+    margin: 0;
+  }
+  div {
+    margin-left: 3vw;
+  }
+  flex: 1;
+}
+.us-outer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
