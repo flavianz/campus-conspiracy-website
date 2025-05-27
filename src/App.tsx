@@ -106,7 +106,7 @@ export default function App() {
                         into jail.
                     </p>
                     <a
-                        href="https://github.com/flavianz/campus-conspiracy-website/releases/download/releases/CampusConspiracy-v0.1.jar"
+                        href="https://github.com/flavianz/campus-conspiracy-website/releases/download/MS-5/CampusConspiracy-v1.0.jar"
                         download="Campus Conspiracy.jar"
                         style={{
                             color: "white",
